@@ -158,6 +158,12 @@ nums = []
 nums.append(int(input("    ")))
 nums.append(int(input("    ")))
 #bonus challenge, rather than printing the result, add the result to the list THEN print it out 
-nums.append(nums[0] + nums[1])
+sum = nums[0] + nums[1]
+nums.append(sum)
 print(nums[2])
-nums.append("Whatever") 
+nums.append("Whatever") #example
+
+"""
+if you are astute, then you'll notice that sentences when converted to ascii 0-25, they become lists of numbers
+ 
+"""
