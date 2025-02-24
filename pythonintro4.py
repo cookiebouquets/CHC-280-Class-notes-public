@@ -153,10 +153,11 @@ print(len(c))
 """
 
 
-
+#                              Five Function Calculator again with lists
 nums = []
 nums.append(int(input("    ")))
 nums.append(int(input("    ")))
 #bonus challenge, rather than printing the result, add the result to the list THEN print it out 
 nums.append(nums[0] + nums[1])
 print(nums[2])
+nums.append("Whatever") 
