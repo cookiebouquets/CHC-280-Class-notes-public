@@ -217,4 +217,3 @@ print(plaintext)
     print the conversion back into plaintext
 """
 
-message = "Calvert Hall students hail from more than 128 zip codes! These zip codes include Anne Arundel County, Baltimore City, Baltimore County, Carroll County, Frederick County, Harford County, Howard County, Queen Anne's County, and parts of Pennsylvania. Bus service is offered from Anne Arundel County, Harford County, and Howard County." 
