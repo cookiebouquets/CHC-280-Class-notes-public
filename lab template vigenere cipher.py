@@ -8,8 +8,8 @@ def generate_key(msg, key):
     return "".join(key)
 
 
-message = ""
-key = "" 
+message = "Here, you can explore your passions to reach your potential and realize your purpose, on our campus and in the world beyond. A Calvert Hall education is a transformative experience that continues long after graduation. Our students become Men of Intellect, Men of Faith, and Men of Integrity, and the relationships they develop over four years at The Hall last forever."
+key = "calvert hall" 
 
 key = generate_key(message,key)
 
