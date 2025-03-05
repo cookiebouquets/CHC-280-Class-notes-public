@@ -19,12 +19,20 @@ ckey = []
 
 for char in message:
     #TODO implement conversion for message
+    num = ord(char)
+    converted.append(num)
     
+    
+
 for char in key:
     #TODO implement conversion for key
+    #same as conversion for message but append to ckey and not converted
+    
     
 encrypted = ""     
     
+    
+
 for num in converted:
     for key in ckey:
         #TODO implement math formula
